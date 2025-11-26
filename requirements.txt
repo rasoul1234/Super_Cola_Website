@@ -1,0 +1,16 @@
+# Optional Python packages for deploying the static site with a small WSGI app
+# If you deploy as a static site (GitHub Pages, Netlify, Vercel) you do NOT need
+# any of these. Uncomment only the packages you plan to use and run:
+#
+#   pip install -r requirements.txt
+#
+# Minimal recommended stack for a Python-based deployment:
+Flask==2.3.2
+gunicorn==20.1.0
+whitenoise==6.5.0
+
+# Optional developer tools (uncomment if you need them):
+# python-dotenv==1.0.0
+# black==24.1.0
+# flake8==7.0.0
+
