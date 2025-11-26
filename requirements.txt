@@ -6,7 +6,7 @@
 #
 # Minimal recommended stack for a Python-based deployment:
 Flask==2.3.2
-gunicorn==20.1.0
+gunicorn==22.0.0
 whitenoise==6.5.0
 
 # Optional developer tools (uncomment if you need them):
