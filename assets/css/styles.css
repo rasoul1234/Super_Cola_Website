@@ -507,7 +507,8 @@ img {
 }
 
 .home__chips-1 {
-  right: -.5rem;
+  right: .5rem;
+  bottom: -.75rem;
 }
 
 .home__chips-2 {
@@ -1415,9 +1416,9 @@ img {
 .home__tomato-1,
 .home__tomato-2,
 .home__leaf {
-    width: 100px; /* Adjust the size as needed */
-    position: relative;
-    animation: tilt 2s infinite;
+  width: 100px; /* Adjust the size as needed */
+  position: absolute;
+  animation: tilt 2s infinite;
 }
 
 @keyframes tilt {
